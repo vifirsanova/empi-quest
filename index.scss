@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+
+body{
+  background: rgb(201,230,255);
+  background: -moz-linear-gradient(90deg, rgba(201,230,255,1) 0%, rgba(213,210,255,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(201,230,255,1) 0%, rgba(213,210,255,1) 100%);
+  background: linear-gradient(90deg, rgba(201,230,255,1) 0%, rgba(213,210,255,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#c9e6ff",endColorstr="#d5d2ff",GradientType=1);
+  margin: 0;
+  height: 100%;
+  color: hsla(60deg, 70%, 10%, .9);
+  font-family: "Noto Sans";
+  font-weight: 400;
+  letter-spacing: 0.015em;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  font-size: 1.25rem;
+  color: hsla(60deg, 70%, 10%, .9);
+}
+
+.buttons{
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4em;
+}
+
+button{
+  background: rgb(174,217,255);
+  background: -moz-linear-gradient(0deg, rgba(174,217,255,1) 0%, rgba(175,170,255,1) 100%);
+  background: -webkit-linear-gradient(0deg, rgba(174,217,255,1) 0%, rgba(175,170,255,1) 100%);
+  background: linear-gradient(0deg, rgba(174,217,255,1) 0%, rgba(175,170,255,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#aed9ff",endColorstr="#afaaff",GradientType=1);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 150%;
+  padding: 1.25rem 0 1.25rem 0;
+  border-radius: 3em;
+  border: none;
+  box-shadow: 0 -0.5em 0.5em transparent, 0 0.5em 0.5em transparent, 0 0.25em 0.3em rgba(174,217,255,1), 0 0.25em 0.75em 0;
+  width: 75vw;
+  max-width: 400px;
+  margin-top: 1em;
+  position: relative;
+  transition: all 0.25s ease;
+  outline: none;
+  
+  &:hover,
+  &:active,
+  &:focus{
+    box-shadow:0 -0.2em 1em rgba(0,0,0,.1), 0 0.5em 1.5em rgba(0,0,0,.5), 0 0.25em 0.3em rgba(174,217,255,1), 0 0.25em 0.75em 0; 
+    transform: scale(1.03);
+    
+  }
+  
+}
+
+footer{
+  padding-bottom: 2rem;
+}
+
+footer, .footer{
+  font-size: 1rem;
+}
+
+h1{
+  padding-top: 0.5em;
+  font-size: 1.57rem;
+  margin: 20px 40px;
+}
+
+#flex-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-height: 100svh;
+}
+
+#flex-container > footer {
+  margin-top: auto;
+}
+
+.warning{
+  padding-bottom: 2em;
+  font-size: 1.1rem;
+  margin: 0 10px;
+}
